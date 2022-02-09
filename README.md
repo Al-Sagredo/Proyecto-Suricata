@@ -1,6 +1,6 @@
 Desarrollo web
 
-Home de página web usando html, css y bootstrap
+Home de página web usando html, css y bootstrap, desarrollado en Atom
 
 
 Maqueta: https://xd.adobe.com/spec/dcf92897-39ba-4e9a-4d25-af16b55e2c78-aac8/grid
