@@ -1,0 +1,150 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+  margin:0;
+}
+
+body * {
+  margin: 0;
+  border: 0;
+  boder: 1px solid black;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  color: #373A3C;
+  margin: 0;
+}
+
+h1 {
+  color: #707070;
+  font-size: 2.5rem;
+  margin: 40px 60px 30px;
+  line-height: 1.5em;
+}
+
+h1, h2, h4, h5 {
+  font-weight: 700;
+}
+
+.bg-pink {
+  background: #E83E8C;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.navbar-toggler {
+  padding: 11px 17.5px;
+  margin-right: 42px;
+}
+
+header img {
+  width: 132px;
+  height: 53px;
+  margin-left: 40px;
+}
+
+/*esto permite que los elementos de la lista del nav se vayan al extremo derecho de la screen*/
+#navbarSupportedContent{
+  flex:none;
+  margin-right:120px;
+}
+
+/*cuando la lista de nav se transforme en hamburguesa, el logo se aleja del borde*/
+@media (min-width: 985px) {
+  header img{
+    margin-left:120px;
+  }
+
+}
+
+/*---------------------seccion comidas--------------*/
+.card {
+  margin: 0 auto 50px;
+  text-align: left;
+
+}
+
+@media (min-width: 1050px){
+  .main h1{
+    margin: 64px auto 77px;
+  }
+
+  #card-group{
+    display:flex;
+    flex-wrap:wrap;
+    margin-left: 180px;
+    margin-right: 180px;
+  }
+
+  .middle-card{
+    margin-left:88px;
+    margin-right:88px;
+  }
+}
+
+
+.small {
+  font-weight: 0.6rem;
+}
+
+/*------------------------seccion iconos-----------------*/
+/* esta seccion no se ve en screen pequeña*/
+.icons-section {
+  background: #17A2B8;
+  display: none;
+}
+
+/* de aqui hacia arriba aparece*/
+@media (min-width: 576px) {
+  .icons-section {
+    display: block;
+    color:white;
+    margin: 0 auto;
+    padding: 60px 0;
+  }
+}
+
+/*el h2 y el div conteniendo los iconos se alinean uno al lado del otro*/
+.block{
+  display:inline-block;
+}
+
+.icons-section h2{
+  margin-right:75px;
+}
+
+
+ i{
+  width:80px;
+  height: 53px;
+  display:inline-block;
+  font-size:3rem;
+}
+
+
+/*-------------footer-------------------*/
+footer img {
+  width: 36px;
+  height: 67px;
+  margin: 58px auto;
+}
+
+<
+
+/*--desktop screen--*/
+
+
+
+
+/*● #212529;
+● #fff o var(--white);
+● #e83e8c o var(--pink);
+
+● #17a2b8 o var(--info);*/
